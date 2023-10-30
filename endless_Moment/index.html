@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endless Moments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><b><i>Endless Moments</i></b></h1>
+        <p>Experience tranquility and express yourself through movement.</p>
+    </header>
+
+    <section class="class-info">
+        <div class="class">
+            <h3>Yoga</h3>
+            <p>Join us for a journey of self-discovery and relaxation.</p>
+            <a href="/yoga website/index.html"><button onclick="showSchedule('yoga')" id="yoga">Yoga</button></a>
+        </div>
+        <h1 id="classes">Classes Offered</h1>
+        <div class="class">
+            <h3>Dance</h3>
+            <p>Unleash your creativity and dance to your heart's content.</p>
+            <a href="/dance website/index.html"><button onclick="showSchedule('dance')" id="dance">dance</button></a>
+        </div>
+    </section>
+
+    <section id="schedule" class="hidden">
+        <h2>Class Schedule</h2>
+        <div id="yoga-schedule">
+            <!-- Yoga class schedule will be displayed here -->
+        </div>
+        <div id="dance-schedule">
+            <!-- Dance class schedule will be displayed here -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

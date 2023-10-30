@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: rgb(81, 142, 142);
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+section.class-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+div.class {
+    max-width: 300px;
+    border: 1px solid cyan;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+
+}
+
+button {
+    background-color: #9d9b9b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+section#schedule {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#yoga{
+    background-color: #8d7b3f;
+    color: #fff;
+    text-align: center;
+    padding: auto;
+    border-radius: 2rem;
+}
+#dance{
+    background-color: #8d7b3f;
+    color: #fff;
+    text-align: center;
+    padding: auto;
+    border-radius: 2rem;
+}
+#classes{
+    color: darkcyan;
+}
